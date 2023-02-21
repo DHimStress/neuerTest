@@ -6,8 +6,16 @@ html,body
 header{
 	background-color: lightgrey;
 	padding: 40px;
-	text-align: center;}
-	
+	text-align: center;
+
+}
+div .bildergrid
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-gap: 50px;
+}
 h1
 {
 	font-size: 90px;
@@ -29,6 +37,7 @@ header img
 img.mitarbeiterbilder
 {
 	max-width: 250px;
+	max-height: 250px;
 
 }
 div{
