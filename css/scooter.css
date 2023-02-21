@@ -1,0 +1,58 @@
+html,body
+{
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+header{
+	background-color: lightgrey;
+	padding: 40px;
+	text-align: center;}
+	
+h1
+{
+	font-size: 90px;
+	color: white;
+}
+header img
+{
+	border-radius: 150px;
+
+}
+
+.content 
+{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+img.mitarbeiterbilder
+{
+	max-width: 250px;
+
+}
+div{
+	display: inline;
+}
+
+ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a
+{
+	color: #1e81b0;
+	text-decoration: none;
+
+}
+
+footer
+{
+	padding: 40px 20px;
+	text-align: center;
+	background-color: lightgrey;
+}
+
