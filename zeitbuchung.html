@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Buche dir dein Scooter!</title>
+	<link rel="stylesheet" href="https://unpkg.com/bamboo.css">
+</head>
+<body>
+	<h1>Buchungsformular</h1>
+	<fieldset>
+	<form action="bearbeitete-Formulare.php">
+		<legend>Persönliche Informationen</legend>
+		<br>
+		<label for="vorname">Vorname</label>
+		<input type="text" name="Vorname" id="vorname">
+
+		<label for="name">Name</label>
+		<input type="text" name="Name" id="name">
+
+		<label for="geboren am">Geboren am</label>
+		<input type="date" name="geboren am">
+	
+		<label for="geburtsort">Geburtsort</label>
+		<input type="text" name="geburtsort">
+	
+		<label for="telefonnummer">Telefonnummer</label>
+		<input type="number" name="telefonnummer">
+	
+		<label for="e-Mail">e-Mail</label>
+		<input type="email" name="e-Mail">
+		<label>
+		<input type="checkbox">
+		Sind Sie über 18 Jahre?
+		</label>
+	
+	</fieldset>
+	<br>
+	
+		<label for="scooterwahl">Was möchtest du buchen?</label>
+		<select id="scooterwahl">
+			<option selected>E-Scooter</option>
+			<option>E-Fahrrad</option>
+		</select>
+	
+	<br>
+	<fieldset>
+		<legend>Kategorie</legend>
+		<label>
+			<input type="radio" name="anklicken" checked >
+			Empfehlung
+		</label>
+		<label>
+			<input type="radio" name="anklicken">
+			Fehler
+		</label>
+	</fieldset>
+	<br>
+	
+		<label for="zusatzinformationen">Zusatzinformationen</label>
+		<textarea id="zusatzinformationen" name="zusatzinformationen"></textarea>
+
+	<br>
+	<button>Absenden</button>
+	</form>
+
+</body>
+</html>
